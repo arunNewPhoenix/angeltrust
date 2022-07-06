@@ -1,0 +1,153 @@
+// stylelint-disable no-eol-whitespace
+
+/* doc
+---
+title: colors
+name: colors
+category: colors
+---
+## _colors
+Color variables imported into other scss files
+[Color names](http://www.color-blindness.com/color-name-hue/)
+[Color adjustment matching tool](https://codepen.io/nikolaygit/pen/usefk)
+*/
+// stylelint-enable
+
+$suva-grey: #888;
+$white-smoke: #f6f6f6;
+$nero: #222;
+$denim: #427bc5;
+$gainsboro: #dadada;
+$white: #fff;
+$charcoal: #444;
+$nubel: #999;
+$night-rider: #333;
+$dark-cerulean: #0b506e;
+$zircon: #e0e4e7;
+$dim-grey: #666;
+$dark-grey: #aaa;
+$black: #000;
+$persian-red: #cd332d;
+$silver: #bababa;
+// Brand Colors Used for third party branding
+$facebook-brand: #3b5998;
+$twitter-brand: #55acee;
+$google-brand: #dd4b39;
+$youtube-brand: #bb0001;
+$rss-brand: #f60;
+$kelly-green: #5db200;
+// the rgb must match the corresponding fade away color
+$transparent-white: rgba(255, 255, 255, 0);
+$transparent-black: rgba(0, 0, 0, 0);
+
+$app-bg: #f5f8fb;
+$indigo: #001848;
+
+// Smart City Brand Colors
+$brd-clr: #e8e8e8;
+$dropdown-text-clr: #4d4d4e;
+
+// yodeco color variables
+
+$y-primary: #0077b6;
+$y-secondary: #4b9fcb;
+$y-primary-light: #bbe2f8;
+$y-gray: #f5f6f5;
+$y-red: #b8070d;
+$y-d-red: #f1cdce;
+$y-gold: #e07902;
+$y-d-gold: #f9e4cc;
+$y-green: #03872a;
+$y-d-green: #cce7d4;
+$y-blue: #0077b6;
+$y-d-blue: #ddf0fb;
+$y-black: #181818;
+$y-silver: #e1e1e1;
+$y-disabled: #e1e1e1;
+$y-primary-gray: #777777;
+$y-secondary-gray: #aeaeae;
+$y-alice-blue: #e6f1f8;
+$y-white: #ffffff;
+
+$colors: (
+  // Smart City Colors
+  brd-clr: $brd-clr,
+  dropdown-text-clr: $dropdown-text-clr,
+  subTitle-clr-4A4A4A: #4a4a4a,
+  black: $black,
+  nero-xxd: darken($nero, 3%),
+  //#1A1A1A
+  nero: #222,
+  night-rider: $night-rider,
+  charcoal: #444,
+  dim-grey: $dim-grey,
+  suva-grey: $suva-grey,
+  suva-grey-xxl: lighten($suva-grey, 3%),
+  // #909090
+  nubel: #999,
+  dark-grey: $dark-grey,
+  silver: $silver,
+  gainsboro: #dadada,
+  white-smoke: $white-smoke,
+  white-smoke-xd: darken($white-smoke, 2%),
+  // #eaeaea
+  white-smoke-xxl: lighten($white-smoke, 3%),
+  // #f7f7f7
+  white: $white,
+  persian-red: $persian-red,
+  cinnabar: #dd4b39,
+  red: #e20000,
+  pelorous: #1e84b1,
+  denim: $denim,
+  light-cyan: lighten($denim, 50%),
+  navy-blue: #55acee,
+  cerulean: #006692,
+  dark-cerulean: #0b506e,
+  kelly-green: $kelly-green,
+  zircon: $zircon,
+  transparent: transparent,
+  twitter-brand: $twitter-brand,
+  facebook-brand: $facebook-brand,
+  google-brand: $google-brand,
+  youtube-brand: $youtube-brand,
+  rss-brand: $rss-brand,
+  saffron: #f7bc37,
+  indigo: $indigo,
+  light-gray: #f8f8f8,
+  dark-yellow: #dab323,
+  bright-yellow: #fed126,
+  dark-blue: #0067a5,
+  dark-red: #d84937,
+  light-green: #109d2e,
+  light-grey: #b7b7b7,
+  dark-green: #509801,
+  silver-chalice: #9e9e9e7d,
+  grey-68: #adadad,
+  black-68: #4a4a4a,
+  theme-color: rgb(74, 64, 140),
+  theme-light-color: rgb(74, 64, 140, 0.12),
+  dark-silver-chalice: #6f6f6f,
+  sky-blue: #f0f8ff,
+  blue: #0067a5,
+  light--cyan-grey: #e8ecf3,
+  // Yodeco colors
+  y-primary: #0077b6,
+  y-secondary: #4b9fcb,
+  y-primary-light: #bbe2f8,
+  y-gray: #f5f6f5,
+  y-red: #b8070d,
+  y-d-red: #f1cdce,
+  y-gold: #e07902,
+  y-d-gold: #f9e4cc,
+  y-green: #03872a,
+  y-d-green: #cce7d4,
+  y-blue: #0077b6,
+  y-d-blue: #ddf0fb,
+  y-black: #181818,
+  y-silver: #e1e1e1,
+  y-disabled: #e1e1e1,
+  y-primary-gray: #777777,
+  y-secondary-gray: #aeaeae,
+  y-alice-blue: #e6f1f8,
+  y-white: #ffffff
+);
